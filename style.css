@@ -188,6 +188,10 @@ a:hover{
     display: inline-block;
 }
 
+.table-box a:hover{
+    color: unset;
+}
+
 .table-box table{
     border-spacing: unset;
 }
@@ -350,6 +354,10 @@ invite{
     height: 100%;
     text-align: left;
     float: right;
+}
+
+.body-container-right a:hover{
+    color: unset;
 }
 
 .body-container-right table{
