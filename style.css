@@ -255,6 +255,10 @@ a:hover{
     text-align: center;
 }
 
+.bottom-entry a:hover{
+    color: unset;
+}
+
 .bottom-entry-left{
     background: rgb(221,221,221);
     width: 40%;
@@ -390,8 +394,9 @@ invite{
 .foot-left ul li{
     display: inline-block;  
     font-size: x-small;
-    padding: 0px 3px;
+    padding: 0px 5px;
     color: white;
+    display: ;
 }
 
 .foot-left ul li:first-child{
