@@ -1,7 +1,6 @@
 *{
     margin: 0%;
     text-decoration: unset;
-    overflow: hidden;
 }
 
 a{
@@ -9,7 +8,7 @@ a{
 }
 
 a:hover{
-    color: rgb(32, 163, 163);
+    color: rgb(45, 202, 202);
 }
 
 .page-wrapper{
@@ -72,6 +71,10 @@ a:hover{
     color: white;
 }
 
+#button:hover{
+    background: rgb(59, 123, 141);
+}
+
 .top-header-right{
     float: right;
     vertical-align: top;
@@ -95,6 +98,10 @@ a:hover{
     margin: auto;
 }
 
+.bottom-header-left{
+    display: inline-block;
+}
+
 .bottom-header-left ul li{
     display: inline-block;
     padding: 0px 15px;
@@ -107,13 +114,61 @@ a:hover{
     padding-left: 0%;
 }
 
+.bottom-header-right{
+    font-size: 70%;
+    float: right;
+}
+
+.invites{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.invites-image{
+    background-image: url("image/invites.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.invites-text{
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.requests{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.requests-image{
+    background-image: url("image/requests.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+}
+
+.requests-text{
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 2px;
+    font-weight: bold;
+    color: gray;
+}
+
 .body-wrapper{
     width: 100%;
 }
 
 .body-container{
     width: 72%;
-    height: 450px;
     padding: 12px 0px;
     margin: auto;
 }
@@ -156,10 +211,132 @@ a:hover{
 }
 
 .entries-box{
-    background: yellowgreen;
     width: 72%;
-    height: 100%;
     float: right;
+}
+
+.entries-box h2{
+    text-align: start;
+    margin-top: -7px;
+}
+
+.entry-types{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 3px;
+    border-bottom: 2px solid rgb(47,193,218);
+    overflow: hidden;
+}
+
+.entry-type-left{
+    background: rgb(245,245,245);
+    width: 49.85%;
+    display: inline-block;
+    padding-bottom: -2px;
+}
+
+.entry-type-right{
+    background: rgb(245,245,245);
+    width: 49.85%;
+    float: right;
+}
+
+.top-entry{
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+}
+
+.bottom-entry{
+    width: 100%;
+    font-size: 75%;
+    text-align: center;
+}
+
+.bottom-entry-left{
+    background: rgb(221,221,221);
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom-entry-right{
+    background: rgb(221,221,221);
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+div:focus{
+    background-color: rgb(47,193,218);
+}
+
+.person-entry{
+    width: 100%;
+    padding: 10px 0px 6px;
+    border-bottom: 1px ridge rgb(173, 168, 168);
+}
+
+.person-image{
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-1{
+    background-image: url("image/person1.gif");
+}
+
+.person-2{
+    background-image: url("image/person2.gif");
+}
+
+.person-3{
+    background-image: url("image/person3.gif");
+}
+
+.person-4{
+    background-image: url("image/person4.jpg");
+}
+
+.person-5{
+    background-image: url("image/person5.jpg");
+}
+
+.person-details{
+    vertical-align: top;
+    height: 60px;
+    display: inline-block;
+}
+
+.person-details p{
+    font-size: 67%;
+}
+
+.person-details a{
+    color: rgb(48, 176, 199);
+    font-weight: bold;
+}
+
+subscribe{
+    color: green;
+    font-weight: bold;
+}
+
+invite{
+    color: red;
+    font-weight: bolder;
 }
 
 .body-container-right{
@@ -196,13 +373,35 @@ a:hover{
 .foot-wrapper{
     background: rgb(114,114,114);
     width: 100%;
-    padding: 7px 0px;
+    padding: 10px 0px;
     vertical-align: bottom;
 }
 
 .foot-container{
-    background: rgb(255,96,77);
     width: 72%;
-    padding: 7px 0px;
     margin: auto;
+}
+
+.foot-left{
+    display: inline-block;
+}
+
+.foot-left ul li{
+    display: inline-block;  
+    font-size: x-small;
+    padding: 0px 3px;
+    color: white;
+}
+
+.foot-left ul li:first-child{
+    margin-left: -35px;
+}
+
+.foot-right{
+    font-size: x-small;
+    float: right;
+    color: white;
+    vertical-align: middle;
+    padding: 4px;
+    text-align: right;
 }
