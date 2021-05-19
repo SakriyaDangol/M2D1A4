@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    text-decoration: unset;
+}
+
+a{
+    color: unset;
+}
+
+a:hover{
+    color: rgb(32, 163, 163);
+}
+
+.page-wrapper{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrapper{
+    width: 100%;
+}
+
+.top-header{
+    background: rgb(126,215,232);
+    width: 100%;
+}
+.top-header-container{
+    width: 72%;
+    padding: 15px 0px;
+    margin: auto;
+}
+
+.top-header-left{
+    width: 65%;
+    padding: 2px 0px;
+    display: inline-block;
+}
+
+.tu-tangle{
+    background-image: url("image/tu-tangle.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 30px 125px; 
+    display: inline-block;
+}
+
+.search-box{
+    display: inline-block;
+    vertical-align: 100%;
+}
+
+#search-text{
+    background: rgb(201,236,244);
+    width: 270px;
+    vertical-align: bottom;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: unset;
+    font-size: 70%;
+}
+
+#button{
+    background: rgb(38,81,93);
+    border: unset;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 70%;
+    font-weight: bold;
+    color: white;
+}
+
+.top-header-right{
+    float: right;
+    vertical-align: top;
+    text-align: right;
+    font-size: 90%;
+}
+
+.top-header-right p{
+    font-size: small;
+    font-weight: bold;
+}
+
+.bottom-header{
+    background: rgb(245,245,245);
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.bottom-header-container{
+    width: 72%;
+    margin: auto;
+}
+
+.bottom-header-left ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.bottom-header-left ul li:first-child{
+    margin-left: -35px;
+    padding-left: 0%;
+}
+
+.body-wrapper{
+    width: 100%;
+}
+
+.body-container{
+    background: rgb(0,224,208);
+    width: 72%;
+    padding: 17% 0%;
+    margin: auto;
+}
+
+.foot-wrapper{
+    background: rgb(114,114,114);
+    width: 100%;
+    padding: 7px 0px;
+    vertical-align: bottom;
+}
+
+.foot-container{
+    background: rgb(255,96,77);
+    width: 72%;
+    padding: 7px 0px;
+    margin: auto;
+}
